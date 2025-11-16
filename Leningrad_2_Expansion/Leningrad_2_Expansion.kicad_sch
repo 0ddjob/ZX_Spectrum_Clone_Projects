@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Ленинград-2 To ZX Spectrum Bus Converter")
-		(date "16/NOV/2025")
-		(rev "A")
+		(date "17/NOV/2025")
+		(rev "B")
 		(company "Brett Hallen")
 		(comment 1 "www.youtube.com/@Brfff")
 	)
@@ -1127,8 +1127,8 @@
 			)
 			(symbol "Leningrad2_Expansion_1_1"
 				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 -68.58)
+					(start -7.62 -7.62)
+					(end 7.62 -73.66)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1139,7 +1139,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.703 -33.02 0)
+					(at -12.703 -38.1 0)
 					(length 5.083)
 					(name "D4"
 						(effects
@@ -1156,8 +1156,26 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
-					(at -12.7 -7.62 0)
+					(at -12.7 -12.7 0)
 					(length 5.08)
 					(name "A14"
 						(effects
@@ -1175,7 +1193,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 -10.16 0)
+					(at -12.7 -15.24 0)
 					(length 5.08)
 					(name "CLK"
 						(effects
@@ -1193,7 +1211,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -12.7 0)
+					(at -12.7 -17.78 0)
 					(length 5.08)
 					(name "~{NMI}"
 						(effects
@@ -1211,7 +1229,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -15.24 0)
+					(at -12.7 -20.32 0)
 					(length 5.08)
 					(name "~{IORQ}"
 						(effects
@@ -1229,7 +1247,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 -17.78 0)
+					(at -12.7 -22.86 0)
 					(length 5.08)
 					(name "~{WR}"
 						(effects
@@ -1247,7 +1265,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -12.7 -20.32 0)
+					(at -12.7 -25.4 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1265,7 +1283,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 -22.86 0)
+					(at -12.7 -27.94 0)
 					(length 5.08)
 					(name "~{RFSH}"
 						(effects
@@ -1283,7 +1301,7 @@
 					)
 				)
 				(pin power_out line
-					(at -12.7 -25.4 0)
+					(at -12.7 -30.48 0)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1301,7 +1319,7 @@
 					)
 				)
 				(pin power_out line
-					(at -12.7 -27.94 0)
+					(at -12.7 -33.02 0)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1319,7 +1337,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -30.48 0)
+					(at -12.7 -35.56 0)
 					(length 5.08)
 					(name "D3"
 						(effects
@@ -1337,7 +1355,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -35.56 0)
+					(at -12.7 -40.64 0)
 					(length 5.08)
 					(name "D5"
 						(effects
@@ -1355,7 +1373,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -38.1 0)
+					(at -12.7 -43.18 0)
 					(length 5.08)
 					(name "D6"
 						(effects
@@ -1373,7 +1391,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -40.64 0)
+					(at -12.7 -45.72 0)
 					(length 5.08)
 					(name "D7"
 						(effects
@@ -1391,7 +1409,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -12.7 -43.18 0)
+					(at -12.7 -48.26 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1409,7 +1427,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 -45.72 0)
+					(at -12.7 -50.8 0)
 					(length 5.08)
 					(name "A10"
 						(effects
@@ -1427,7 +1445,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -12.7 -48.26 0)
+					(at -12.7 -53.34 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1445,7 +1463,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 -50.8 0)
+					(at -12.7 -55.88 0)
 					(length 5.08)
 					(name "A11"
 						(effects
@@ -1463,7 +1481,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 -53.34 0)
+					(at -12.7 -58.42 0)
 					(length 5.08)
 					(name "A9"
 						(effects
@@ -1481,7 +1499,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 -55.88 0)
+					(at -12.7 -60.96 0)
 					(length 5.08)
 					(name "A8"
 						(effects
@@ -1499,7 +1517,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 -58.42 0)
+					(at -12.7 -63.5 0)
 					(length 5.08)
 					(name "A13"
 						(effects
@@ -1517,7 +1535,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -12.7 -60.96 0)
+					(at -12.7 -66.04 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1535,7 +1553,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -12.7 -63.5 0)
+					(at -12.7 -68.58 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1553,7 +1571,7 @@
 					)
 				)
 				(pin power_out line
-					(at -12.7 -66.04 0)
+					(at -12.7 -71.12 0)
 					(length 5.08)
 					(name "+5V"
 						(effects
@@ -1571,7 +1589,25 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -7.62 180)
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "~{IORQGE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -12.7 180)
 					(length 5.08)
 					(name "A15"
 						(effects
@@ -1589,7 +1625,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -10.16 180)
+					(at 12.7 -15.24 180)
 					(length 5.08)
 					(name "~{INT}"
 						(effects
@@ -1607,7 +1643,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -12.7 180)
+					(at 12.7 -17.78 180)
 					(length 5.08)
 					(name "~{MREQ}"
 						(effects
@@ -1625,7 +1661,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -15.24 180)
+					(at 12.7 -20.32 180)
 					(length 5.08)
 					(name "~{RD}"
 						(effects
@@ -1643,7 +1679,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 12.7 -17.78 180)
+					(at 12.7 -22.86 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1661,7 +1697,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -20.32 180)
+					(at 12.7 -25.4 180)
 					(length 5.08)
 					(name "~{WAIT}"
 						(effects
@@ -1679,7 +1715,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -22.86 180)
+					(at 12.7 -27.94 180)
 					(length 5.08)
 					(name "~{RESET}"
 						(effects
@@ -1697,7 +1733,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -25.4 180)
+					(at 12.7 -30.48 180)
 					(length 5.08)
 					(name "~{BUSRQ}"
 						(effects
@@ -1715,7 +1751,7 @@
 					)
 				)
 				(pin power_out line
-					(at 12.7 -27.94 180)
+					(at 12.7 -33.02 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1733,7 +1769,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -30.48 180)
+					(at 12.7 -35.56 180)
 					(length 5.08)
 					(name "D2"
 						(effects
@@ -1751,7 +1787,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -33.02 180)
+					(at 12.7 -38.1 180)
 					(length 5.08)
 					(name "D1"
 						(effects
@@ -1769,7 +1805,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -35.56 180)
+					(at 12.7 -40.64 180)
 					(length 5.08)
 					(name "D0"
 						(effects
@@ -1787,7 +1823,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -38.1 180)
+					(at 12.7 -43.18 180)
 					(length 5.08)
 					(name "A0"
 						(effects
@@ -1805,7 +1841,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -40.64 180)
+					(at 12.7 -45.72 180)
 					(length 5.08)
 					(name "A1"
 						(effects
@@ -1823,7 +1859,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -43.18 180)
+					(at 12.7 -48.26 180)
 					(length 5.08)
 					(name "A2"
 						(effects
@@ -1841,7 +1877,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -45.72 180)
+					(at 12.7 -50.8 180)
 					(length 5.08)
 					(name "A3"
 						(effects
@@ -1859,7 +1895,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -48.26 180)
+					(at 12.7 -53.34 180)
 					(length 5.08)
 					(name "A4"
 						(effects
@@ -1877,7 +1913,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -50.8 180)
+					(at 12.7 -55.88 180)
 					(length 5.08)
 					(name "A5"
 						(effects
@@ -1895,7 +1931,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -53.34 180)
+					(at 12.7 -58.42 180)
 					(length 5.08)
 					(name "A6"
 						(effects
@@ -1913,7 +1949,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -55.88 180)
+					(at 12.7 -60.96 180)
 					(length 5.08)
 					(name "A7"
 						(effects
@@ -1931,7 +1967,7 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -58.42 180)
+					(at 12.7 -63.5 180)
 					(length 5.08)
 					(name "A12"
 						(effects
@@ -1949,7 +1985,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 12.7 -60.96 180)
+					(at 12.7 -66.04 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1967,7 +2003,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 12.7 -63.5 180)
+					(at 12.7 -68.58 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1985,7 +2021,7 @@
 					)
 				)
 				(pin power_out line
-					(at 12.7 -66.04 180)
+					(at 12.7 -71.12 180)
 					(length 5.08)
 					(name "+5V"
 						(effects
@@ -2030,7 +2066,7 @@
 		(at 39.367 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "040ebe77-525a-4eb9-98c2-0258a030a2ab")
+		(uuid "4fb0cf28-1557-40e5-826c-66b57f4c9c46")
 	)
 	(junction
 		(at 80.01 17.78)
@@ -2053,10 +2089,6 @@
 	(no_connect
 		(at 125.73 68.58)
 		(uuid "28278260-acea-48e3-9ab6-602ab3f65457")
-	)
-	(no_connect
-		(at 125.73 58.42)
-		(uuid "678aecf8-fd94-4bbc-8795-af341ddf9235")
 	)
 	(no_connect
 		(at 92.71 81.28)
@@ -2270,6 +2302,15 @@
 		(uuid "34a17f3d-2bab-4b50-9a9f-ac96040ccb97")
 	)
 	(bus_entry
+		(at 77.47 33.02)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d9d650-3ca1-479d-b350-d37f10df019f")
+	)
+	(bus_entry
 		(at 80.01 43.18)
 		(size 2.54 2.54)
 		(stroke
@@ -2277,6 +2318,15 @@
 			(type default)
 		)
 		(uuid "3fd63a60-339b-424d-b93c-8f4625a27758")
+	)
+	(bus_entry
+		(at 137.16 58.42)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4313431f-0c6a-4d65-9a8f-9d6a9cce0e09")
 	)
 	(bus_entry
 		(at 137.16 93.98)
@@ -3228,6 +3278,16 @@
 		)
 		(uuid "760f11ef-e45e-4027-a053-bd04184dd60f")
 	)
+	(bus
+		(pts
+			(xy 80.01 35.56) (xy 80.01 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77131e6d-7bf5-4deb-9aad-943dad384bca")
+	)
 	(wire
 		(pts
 			(xy 82.55 93.98) (xy 92.71 93.98)
@@ -3390,6 +3450,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.367 60.96) (xy 39.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a57103a-d2ce-462a-b738-3ff32adb00c8")
+	)
+	(wire
+		(pts
 			(xy 125.73 45.72) (xy 137.16 45.72)
 		)
 		(stroke
@@ -3397,6 +3467,16 @@
 			(type default)
 		)
 		(uuid "9d2499ee-d42e-4379-a3ca-d2497b53f85d")
+	)
+	(bus
+		(pts
+			(xy 139.7 60.96) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d637054-5ee9-45c8-9e2b-501494e85e28")
 	)
 	(wire
 		(pts
@@ -3507,16 +3587,6 @@
 			(type default)
 		)
 		(uuid "b107e701-e63a-4cd3-b728-c04d2caafed8")
-	)
-	(wire
-		(pts
-			(xy 39.367 60.96) (xy 39.37 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4aacf29-3873-4637-b2d2-73a051e25a47")
 	)
 	(wire
 		(pts
@@ -3697,6 +3767,16 @@
 			(type default)
 		)
 		(uuid "cc8f0e2b-3c5f-4a62-b848-d2e2f2022312")
+	)
+	(wire
+		(pts
+			(xy 64.77 33.02) (xy 77.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd89272e-1656-4e3d-aa5c-0962ab582fa6")
 	)
 	(bus
 		(pts
@@ -3890,7 +3970,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 58.42) (xy 139.7 76.2)
+			(xy 139.7 58.42) (xy 139.7 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3927,6 +4007,16 @@
 			(type default)
 		)
 		(uuid "eda14a0c-ad32-4b1b-929e-4165c6cb2aa5")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd9a016-7890-4786-b69b-c172ed36b0e0")
 	)
 	(bus
 		(pts
@@ -3990,7 +4080,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 30.48) (xy 80.01 38.1)
+			(xy 80.01 30.48) (xy 80.01 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4107,6 +4197,26 @@
 			(justify left bottom)
 		)
 		(uuid "2c427913-2c36-4f80-9225-96cac75cd51e")
+	)
+	(label "~{IORQGE}"
+		(at 125.73 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d98fdc5-3643-41ae-b474-0d51403817d5")
+	)
+	(label "~{IORQGE}"
+		(at 68.58 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34e7ebdb-54ba-4d14-832c-2b20714cff11")
 	)
 	(label "~{BUSRQ}"
 		(at 127 73.66 0)
@@ -5142,7 +5252,7 @@
 	)
 	(symbol
 		(lib_id "Clueless_Engineer:Leningrad2_Expansion")
-		(at 52.07 27.94 0)
+		(at 52.07 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5151,7 +5261,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0eb3170-ec8c-4b8c-bc5f-6d2b794b30d2")
 		(property "Reference" "X6"
-			(at 52.07 27.94 0)
+			(at 52.07 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +5269,7 @@
 			)
 		)
 		(property "Value" "Ленинград-2 Expansion Bus"
-			(at 52.07 30.48 0)
+			(at 52.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5277,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:Leningrad_2_Expansion_Bus"
-			(at 52.07 27.94 0)
+			(at 52.07 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 27.94 0)
+			(at 52.07 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5295,7 @@
 			)
 		)
 		(property "Description" "Leningrad 2 Expansion Bus"
-			(at 52.07 27.94 0)
+			(at 52.07 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,8 +5447,14 @@
 		(pin "A5"
 			(uuid "6ac1a520-2524-4718-9fcb-fb76099b6b9e")
 		)
+		(pin "B2"
+			(uuid "536315f5-2bf5-4c8b-9857-e222b27f95c3")
+		)
+		(pin "A2"
+			(uuid "3635a492-1080-46d4-a54c-fd93467c94c5")
+		)
 		(instances
-			(project ""
+			(project "Leningrad_2_Expansion"
 				(path "/948c47d7-165c-4f85-b1dd-302a4de8ae3d"
 					(reference "X6")
 					(unit 1)
