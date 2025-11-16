@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "Leningrad 2 Expansion Bus"
+		(property "Value" "Ленинград-2 Expansion Bus"
 			(at 15.24 -2.54 0)
 			(effects
 				(font
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:Leningrad_2_Expansion_Bus"
-			(at 0 0 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Leningrad 2 Expansion Bus"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,9 +71,27 @@
 					(color 255 255 194 1)
 				)
 			)
+			(pin bidirectional line
+				(at -12.703 -33.02 0)
+				(length 5.083)
+				(name "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at -10.16 -7.62 0)
-				(length 2.54)
+				(at -12.7 -7.62 0)
+				(length 5.08)
 				(name "A14"
 					(effects
 						(font
@@ -90,8 +108,8 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -10.16 0)
-				(length 2.54)
+				(at -12.7 -10.16 0)
+				(length 5.08)
 				(name "CLK"
 					(effects
 						(font
@@ -108,8 +126,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -12.7 0)
-				(length 2.54)
+				(at -12.7 -12.7 0)
+				(length 5.08)
 				(name "~{NMI}"
 					(effects
 						(font
@@ -126,8 +144,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -15.24 0)
-				(length 2.54)
+				(at -12.7 -15.24 0)
+				(length 5.08)
 				(name "~{IORQ}"
 					(effects
 						(font
@@ -144,8 +162,8 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -17.78 0)
-				(length 2.54)
+				(at -12.7 -17.78 0)
+				(length 5.08)
 				(name "~{WR}"
 					(effects
 						(font
@@ -162,8 +180,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 -20.32 0)
-				(length 2.54)
+				(at -12.7 -20.32 0)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -180,8 +198,8 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -22.86 0)
-				(length 2.54)
+				(at -12.7 -22.86 0)
+				(length 5.08)
 				(name "~{RFSH}"
 					(effects
 						(font
@@ -198,8 +216,8 @@
 				)
 			)
 			(pin power_out line
-				(at -10.16 -25.4 0)
-				(length 2.54)
+				(at -12.7 -25.4 0)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -216,8 +234,8 @@
 				)
 			)
 			(pin power_out line
-				(at -10.16 -27.94 0)
-				(length 2.54)
+				(at -12.7 -27.94 0)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -234,8 +252,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -30.48 0)
-				(length 2.54)
+				(at -12.7 -30.48 0)
+				(length 5.08)
 				(name "D3"
 					(effects
 						(font
@@ -252,26 +270,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -33.02 0)
-				(length 2.54)
-				(name "D4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 -35.56 0)
-				(length 2.54)
+				(at -12.7 -35.56 0)
+				(length 5.08)
 				(name "D5"
 					(effects
 						(font
@@ -288,8 +288,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -38.1 0)
-				(length 2.54)
+				(at -12.7 -38.1 0)
+				(length 5.08)
 				(name "D6"
 					(effects
 						(font
@@ -306,8 +306,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -40.64 0)
-				(length 2.54)
+				(at -12.7 -40.64 0)
+				(length 5.08)
 				(name "D7"
 					(effects
 						(font
@@ -324,8 +324,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 -43.18 0)
-				(length 2.54)
+				(at -12.7 -43.18 0)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -342,8 +342,8 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -45.72 0)
-				(length 2.54)
+				(at -12.7 -45.72 0)
+				(length 5.08)
 				(name "A10"
 					(effects
 						(font
@@ -360,8 +360,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 -48.26 0)
-				(length 2.54)
+				(at -12.7 -48.26 0)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -378,8 +378,8 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -50.8 0)
-				(length 2.54)
+				(at -12.7 -50.8 0)
+				(length 5.08)
 				(name "A11"
 					(effects
 						(font
@@ -396,8 +396,8 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -53.34 0)
-				(length 2.54)
+				(at -12.7 -53.34 0)
+				(length 5.08)
 				(name "A9"
 					(effects
 						(font
@@ -414,8 +414,8 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -55.88 0)
-				(length 2.54)
+				(at -12.7 -55.88 0)
+				(length 5.08)
 				(name "A8"
 					(effects
 						(font
@@ -432,8 +432,8 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -58.42 0)
-				(length 2.54)
+				(at -12.7 -58.42 0)
+				(length 5.08)
 				(name "A13"
 					(effects
 						(font
@@ -450,8 +450,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 -60.96 0)
-				(length 2.54)
+				(at -12.7 -60.96 0)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -468,8 +468,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 -63.5 0)
-				(length 2.54)
+				(at -12.7 -63.5 0)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -486,8 +486,8 @@
 				)
 			)
 			(pin power_out line
-				(at -10.16 -66.04 0)
-				(length 2.54)
+				(at -12.7 -66.04 0)
+				(length 5.08)
 				(name "+5V"
 					(effects
 						(font
@@ -504,8 +504,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -7.62 180)
-				(length 2.54)
+				(at 12.7 -7.62 180)
+				(length 5.08)
 				(name "A15"
 					(effects
 						(font
@@ -522,8 +522,8 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -10.16 180)
-				(length 2.54)
+				(at 12.7 -10.16 180)
+				(length 5.08)
 				(name "~{INT}"
 					(effects
 						(font
@@ -540,8 +540,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -12.7 180)
-				(length 2.54)
+				(at 12.7 -12.7 180)
+				(length 5.08)
 				(name "~{MREQ}"
 					(effects
 						(font
@@ -558,8 +558,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -15.24 180)
-				(length 2.54)
+				(at 12.7 -15.24 180)
+				(length 5.08)
 				(name "~{RD}"
 					(effects
 						(font
@@ -576,8 +576,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -17.78 180)
-				(length 2.54)
+				(at 12.7 -17.78 180)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -594,8 +594,8 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -20.32 180)
-				(length 2.54)
+				(at 12.7 -20.32 180)
+				(length 5.08)
 				(name "~{WAIT}"
 					(effects
 						(font
@@ -612,8 +612,8 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -22.86 180)
-				(length 2.54)
+				(at 12.7 -22.86 180)
+				(length 5.08)
 				(name "~{RESET}"
 					(effects
 						(font
@@ -630,8 +630,8 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -25.4 180)
-				(length 2.54)
+				(at 12.7 -25.4 180)
+				(length 5.08)
 				(name "~{BUSRQ}"
 					(effects
 						(font
@@ -648,8 +648,8 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 -27.94 180)
-				(length 2.54)
+				(at 12.7 -27.94 180)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -666,8 +666,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -30.48 180)
-				(length 2.54)
+				(at 12.7 -30.48 180)
+				(length 5.08)
 				(name "D2"
 					(effects
 						(font
@@ -684,8 +684,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -33.02 180)
-				(length 2.54)
+				(at 12.7 -33.02 180)
+				(length 5.08)
 				(name "D1"
 					(effects
 						(font
@@ -702,8 +702,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -35.56 180)
-				(length 2.54)
+				(at 12.7 -35.56 180)
+				(length 5.08)
 				(name "D0"
 					(effects
 						(font
@@ -720,8 +720,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -38.1 180)
-				(length 2.54)
+				(at 12.7 -38.1 180)
+				(length 5.08)
 				(name "A0"
 					(effects
 						(font
@@ -738,8 +738,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -40.64 180)
-				(length 2.54)
+				(at 12.7 -40.64 180)
+				(length 5.08)
 				(name "A1"
 					(effects
 						(font
@@ -756,8 +756,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -43.18 180)
-				(length 2.54)
+				(at 12.7 -43.18 180)
+				(length 5.08)
 				(name "A2"
 					(effects
 						(font
@@ -774,8 +774,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -45.72 180)
-				(length 2.54)
+				(at 12.7 -45.72 180)
+				(length 5.08)
 				(name "A3"
 					(effects
 						(font
@@ -792,8 +792,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -48.26 180)
-				(length 2.54)
+				(at 12.7 -48.26 180)
+				(length 5.08)
 				(name "A4"
 					(effects
 						(font
@@ -810,8 +810,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -50.8 180)
-				(length 2.54)
+				(at 12.7 -50.8 180)
+				(length 5.08)
 				(name "A5"
 					(effects
 						(font
@@ -828,8 +828,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -53.34 180)
-				(length 2.54)
+				(at 12.7 -53.34 180)
+				(length 5.08)
 				(name "A6"
 					(effects
 						(font
@@ -846,8 +846,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -55.88 180)
-				(length 2.54)
+				(at 12.7 -55.88 180)
+				(length 5.08)
 				(name "A7"
 					(effects
 						(font
@@ -864,8 +864,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -58.42 180)
-				(length 2.54)
+				(at 12.7 -58.42 180)
+				(length 5.08)
 				(name "A12"
 					(effects
 						(font
@@ -882,8 +882,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -60.96 180)
-				(length 2.54)
+				(at 12.7 -60.96 180)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -900,8 +900,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -63.5 180)
-				(length 2.54)
+				(at 12.7 -63.5 180)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -918,8 +918,8 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 -66.04 180)
-				(length 2.54)
+				(at 12.7 -66.04 180)
+				(length 5.08)
 				(name "+5V"
 					(effects
 						(font
