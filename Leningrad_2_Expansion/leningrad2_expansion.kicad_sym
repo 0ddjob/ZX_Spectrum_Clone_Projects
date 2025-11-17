@@ -60,8 +60,8 @@
 		)
 		(symbol "Leningrad2_Expansion_1_1"
 			(rectangle
-				(start -7.62 -5.08)
-				(end 7.62 -68.58)
+				(start -7.62 -7.62)
+				(end 7.62 -73.66)
 				(stroke
 					(width 0)
 					(type solid)
@@ -72,7 +72,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.703 -33.02 0)
+				(at -12.703 -38.1 0)
 				(length 5.083)
 				(name "D4"
 					(effects
@@ -89,8 +89,26 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at -12.7 -10.16 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at -12.7 -7.62 0)
+				(at -12.7 -12.7 0)
 				(length 5.08)
 				(name "A14"
 					(effects
@@ -108,7 +126,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -10.16 0)
+				(at -12.7 -15.24 0)
 				(length 5.08)
 				(name "CLK"
 					(effects
@@ -126,7 +144,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -12.7 0)
+				(at -12.7 -17.78 0)
 				(length 5.08)
 				(name "~{NMI}"
 					(effects
@@ -144,7 +162,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -15.24 0)
+				(at -12.7 -20.32 0)
 				(length 5.08)
 				(name "~{IORQ}"
 					(effects
@@ -162,7 +180,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -17.78 0)
+				(at -12.7 -22.86 0)
 				(length 5.08)
 				(name "~{WR}"
 					(effects
@@ -180,7 +198,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -20.32 0)
+				(at -12.7 -25.4 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -198,7 +216,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -22.86 0)
+				(at -12.7 -27.94 0)
 				(length 5.08)
 				(name "~{RFSH}"
 					(effects
@@ -216,7 +234,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 -25.4 0)
+				(at -12.7 -30.48 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -234,7 +252,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 -27.94 0)
+				(at -12.7 -33.02 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -252,7 +270,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -30.48 0)
+				(at -12.7 -35.56 0)
 				(length 5.08)
 				(name "D3"
 					(effects
@@ -270,7 +288,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -35.56 0)
+				(at -12.7 -40.64 0)
 				(length 5.08)
 				(name "D5"
 					(effects
@@ -288,7 +306,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -38.1 0)
+				(at -12.7 -43.18 0)
 				(length 5.08)
 				(name "D6"
 					(effects
@@ -306,7 +324,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -40.64 0)
+				(at -12.7 -45.72 0)
 				(length 5.08)
 				(name "D7"
 					(effects
@@ -324,7 +342,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -43.18 0)
+				(at -12.7 -48.26 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -342,7 +360,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -45.72 0)
+				(at -12.7 -50.8 0)
 				(length 5.08)
 				(name "A10"
 					(effects
@@ -360,7 +378,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -48.26 0)
+				(at -12.7 -53.34 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -378,7 +396,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -50.8 0)
+				(at -12.7 -55.88 0)
 				(length 5.08)
 				(name "A11"
 					(effects
@@ -396,7 +414,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -53.34 0)
+				(at -12.7 -58.42 0)
 				(length 5.08)
 				(name "A9"
 					(effects
@@ -414,7 +432,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -55.88 0)
+				(at -12.7 -60.96 0)
 				(length 5.08)
 				(name "A8"
 					(effects
@@ -432,7 +450,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -58.42 0)
+				(at -12.7 -63.5 0)
 				(length 5.08)
 				(name "A13"
 					(effects
@@ -450,7 +468,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -60.96 0)
+				(at -12.7 -66.04 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -468,7 +486,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -63.5 0)
+				(at -12.7 -68.58 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -486,7 +504,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 -66.04 0)
+				(at -12.7 -71.12 0)
 				(length 5.08)
 				(name "+5V"
 					(effects
@@ -504,7 +522,25 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -7.62 180)
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(name "~{IORQGE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -12.7 180)
 				(length 5.08)
 				(name "A15"
 					(effects
@@ -522,7 +558,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -10.16 180)
+				(at 12.7 -15.24 180)
 				(length 5.08)
 				(name "~{INT}"
 					(effects
@@ -540,7 +576,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -12.7 180)
+				(at 12.7 -17.78 180)
 				(length 5.08)
 				(name "~{MREQ}"
 					(effects
@@ -558,7 +594,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -15.24 180)
+				(at 12.7 -20.32 180)
 				(length 5.08)
 				(name "~{RD}"
 					(effects
@@ -576,7 +612,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -17.78 180)
+				(at 12.7 -22.86 180)
 				(length 5.08)
 				(name ""
 					(effects
@@ -594,7 +630,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -20.32 180)
+				(at 12.7 -25.4 180)
 				(length 5.08)
 				(name "~{WAIT}"
 					(effects
@@ -612,7 +648,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -22.86 180)
+				(at 12.7 -27.94 180)
 				(length 5.08)
 				(name "~{RESET}"
 					(effects
@@ -630,7 +666,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -25.4 180)
+				(at 12.7 -30.48 180)
 				(length 5.08)
 				(name "~{BUSRQ}"
 					(effects
@@ -648,7 +684,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -27.94 180)
+				(at 12.7 -33.02 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -666,7 +702,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -30.48 180)
+				(at 12.7 -35.56 180)
 				(length 5.08)
 				(name "D2"
 					(effects
@@ -684,7 +720,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -33.02 180)
+				(at 12.7 -38.1 180)
 				(length 5.08)
 				(name "D1"
 					(effects
@@ -702,7 +738,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -35.56 180)
+				(at 12.7 -40.64 180)
 				(length 5.08)
 				(name "D0"
 					(effects
@@ -720,7 +756,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -38.1 180)
+				(at 12.7 -43.18 180)
 				(length 5.08)
 				(name "A0"
 					(effects
@@ -738,7 +774,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -40.64 180)
+				(at 12.7 -45.72 180)
 				(length 5.08)
 				(name "A1"
 					(effects
@@ -756,7 +792,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -43.18 180)
+				(at 12.7 -48.26 180)
 				(length 5.08)
 				(name "A2"
 					(effects
@@ -774,7 +810,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -45.72 180)
+				(at 12.7 -50.8 180)
 				(length 5.08)
 				(name "A3"
 					(effects
@@ -792,7 +828,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -48.26 180)
+				(at 12.7 -53.34 180)
 				(length 5.08)
 				(name "A4"
 					(effects
@@ -810,7 +846,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -50.8 180)
+				(at 12.7 -55.88 180)
 				(length 5.08)
 				(name "A5"
 					(effects
@@ -828,7 +864,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -53.34 180)
+				(at 12.7 -58.42 180)
 				(length 5.08)
 				(name "A6"
 					(effects
@@ -846,7 +882,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -55.88 180)
+				(at 12.7 -60.96 180)
 				(length 5.08)
 				(name "A7"
 					(effects
@@ -864,7 +900,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -58.42 180)
+				(at 12.7 -63.5 180)
 				(length 5.08)
 				(name "A12"
 					(effects
@@ -882,7 +918,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -60.96 180)
+				(at 12.7 -66.04 180)
 				(length 5.08)
 				(name ""
 					(effects
@@ -900,7 +936,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -63.5 180)
+				(at 12.7 -68.58 180)
 				(length 5.08)
 				(name ""
 					(effects
@@ -918,7 +954,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -66.04 180)
+				(at 12.7 -71.12 180)
 				(length 5.08)
 				(name "+5V"
 					(effects
