@@ -1,0 +1,7 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name
+J1,1,VGA Out,DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm,,,,tht,"15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector",,,,
+J2,1,Audio Out,MJ3536N,,MJ-3536N,,tht,"3.5 mm, Mono, Right Angle, Through Hole, 2 Conductors, 1 Internal Switch, Audio Jack Connector",10,490-MJ-3536N,https://www.mouser.co.uk/ProductDetail/Same-Sky/MJ-3536N?qs=WyjlAZoYn51vdgS3Tq1ykQ%3D%3D,Same Sky
+J3,1,To VGA,PinHeader_1x07_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,
+J4,1,RGB/DIN,PinHeader_1x08_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,
+J5,1,DIN8 Socket,6710801,,671-0801,,tht,"Deltron 8 Pole Right Angle Din Socket Socket, 2A, 100 V ac, Lockable",19.5,,,DELTRON COMPONENTS
+J6,1,DIN6 Socket,6710601,,671-0601,,tht,"Deltron 6 Pole Right Angle Din Socket Socket, 2A, 100 V ac, Lockable",19.5,,,DELTRON COMPONENTS

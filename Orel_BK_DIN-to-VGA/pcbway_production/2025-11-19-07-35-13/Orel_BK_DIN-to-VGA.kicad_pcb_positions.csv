@@ -1,0 +1,4 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+112.855,-85.404338,-90.0,top,J1,,,DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm,VGA Out,tht
+111.016263,-104.284316,0.0,top,J3,SJ3-350820B-TR,,SJ3350820BTR,Audio Out,tht
+124.5,-92.7,-90.0,top,J5,671-0801,,6710801,Orel BK DIN,tht
