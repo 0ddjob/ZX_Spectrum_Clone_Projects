@@ -1650,6 +1650,18 @@
 		(layer "Edge.Cuts")
 		(uuid "fb2e1f1b-521d-4ef0-ad30-60fb904008a4")
 	)
+	(gr_text "5-pin DIN"
+		(at 127.45 85.55 0)
+		(layer "F.SilkS")
+		(uuid "3464ad43-23cd-4aec-b0f4-c22b00558228")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Leningrad-2 DIN"
 		(at 124.5 73 0)
 		(layer "F.SilkS")
@@ -1697,18 +1709,6 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
-		)
-	)
-	(gr_text "5-pin DIN"
-		(at 127.45 85.55 0)
-		(layer "B.SilkS")
-		(uuid "3464ad43-23cd-4aec-b0f4-c22b00558228")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "BLUE"
