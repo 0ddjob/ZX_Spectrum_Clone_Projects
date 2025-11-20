@@ -1,0 +1,1612 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9456dabe-44f0-4df6-9d67-e0e5c3b9f6e6")
+	(paper "A5")
+	(title_block
+		(title "Belarus Байт DIN to VGA")
+		(date "20/NOV/2025")
+		(rev "A")
+		(company "Brett Hallen")
+		(comment 1 "www.youtube.com/@Brfff")
+	)
+	(lib_symbols
+		(symbol "Clueless_Engineer:671-0801"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "671-0801"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "6710801"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/458/deltron-671-0401-4-way-din-socket-data-1859903.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Deltron 8 Pole Right Angle Din Socket Socket, 2A, 100 V ac, Lockable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "19.5"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "element14 Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "element14 Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "DELTRON COMPONENTS"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "671-0801"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DIN8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "671-0801_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:DE15_Socket_HighDensity"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DE15_Socket_HighDensity"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -24.13 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -24.13 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DSUB VGA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Socket*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DE15_Socket_HighDensity_0_1"
+				(polyline
+					(pts
+						(xy -3.81 17.78) (xy -3.81 -15.24) (xy 3.81 -12.7) (xy 3.81 15.24) (xy -3.81 17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 7.62) (xy -0.635 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 12.7) (xy -3.175 12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -7.62) (xy -3.175 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 12.7)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 7.62)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DE15_Socket_HighDensity_1_1"
+				(pin passive line
+					(at -7.62 12.7 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "V.SYNC"
+		(exclude_from_sim no)
+		(at 69.596 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfb6efed-4db9-4de6-867f-57c04078e09e")
+	)
+	(text_box "5-pin DIN required\n\nPin 1 = synch\nPin 2 = ground\nPin 3 = blue\nPin 4 = green\nPin 5 = red"
+		(exclude_from_sim no)
+		(at 153.67 59.69 0)
+		(size 22.86 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8e34dbc1-3b06-42bc-aece-cb5f19e38e9d")
+	)
+	(junction
+		(at 38.1 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02df28c2-106f-4331-9696-6e8be88fbb00")
+	)
+	(junction
+		(at 38.1 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "372eb81e-a66f-49e7-afdc-96d9ed7ee830")
+	)
+	(junction
+		(at 38.1 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770b34cc-5ef0-40f4-bfcc-c38d2d3604da")
+	)
+	(junction
+		(at 125.73 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce58cc72-d4f2-43af-b195-68eb5e85fbeb")
+	)
+	(no_connect
+		(at 64.77 69.85)
+		(uuid "04eca038-c0b4-488a-8baa-a2d14cbc3b96")
+	)
+	(no_connect
+		(at 64.77 54.61)
+		(uuid "0a8e7796-c1aa-4694-859b-564400685ecd")
+	)
+	(no_connect
+		(at 49.53 64.77)
+		(uuid "2797a436-d13a-49f0-889f-6369918aab79")
+	)
+	(no_connect
+		(at 125.73 58.42)
+		(uuid "329f39bd-2ee5-4232-b036-f0056f03cd6b")
+	)
+	(no_connect
+		(at 125.73 53.34)
+		(uuid "5d312099-4dec-47d2-85ac-6c2ec6f402a9")
+	)
+	(no_connect
+		(at 125.73 55.88)
+		(uuid "643d77b3-f878-4674-8cec-fb3cd895e3fe")
+	)
+	(no_connect
+		(at 64.77 49.53)
+		(uuid "83f84a60-2516-4cb8-9410-e925fda50b1c")
+	)
+	(no_connect
+		(at 49.53 62.23)
+		(uuid "90b273a9-c811-412e-85d9-b2725060a0fa")
+	)
+	(no_connect
+		(at 64.77 64.77)
+		(uuid "a8f234ac-7ca9-411c-b4f7-f2a1c90e86f5")
+	)
+	(wire
+		(pts
+			(xy 38.1 67.31) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08259130-4228-4648-aa35-abe2f7927107")
+	)
+	(wire
+		(pts
+			(xy 38.1 57.15) (xy 38.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b9a16b-7653-4eff-8711-67d74c85db88")
+	)
+	(wire
+		(pts
+			(xy 38.1 46.99) (xy 49.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2202d2-24d3-49c0-ae08-76f7ec573171")
+	)
+	(wire
+		(pts
+			(xy 38.1 69.85) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513f3594-ca9d-41a2-bdcd-2cdf11178ef2")
+	)
+	(wire
+		(pts
+			(xy 38.1 57.15) (xy 49.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfc7cf9-2ba0-4ea4-b8c8-58708be5626f")
+	)
+	(wire
+		(pts
+			(xy 125.73 62.23) (xy 125.73 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8dd5c8-fbff-4243-bcc7-dcb1ea2fac09")
+	)
+	(wire
+		(pts
+			(xy 125.73 60.96) (xy 125.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a8a96a-37ee-4371-8595-a63ab0893ade")
+	)
+	(wire
+		(pts
+			(xy 125.73 62.23) (xy 129.54 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c9d478-e8c9-4e4a-b719-c9e3f7065368")
+	)
+	(wire
+		(pts
+			(xy 38.1 57.15) (xy 38.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b778acec-c494-49c4-925f-ff95a028feb7")
+	)
+	(wire
+		(pts
+			(xy 38.1 69.85) (xy 38.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba53645f-010c-42d6-ab34-142b186e8b2f")
+	)
+	(wire
+		(pts
+			(xy 38.1 52.07) (xy 38.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca629190-9704-4256-bf89-630673fdf235")
+	)
+	(wire
+		(pts
+			(xy 38.1 52.07) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33357f0-2858-4afe-bcab-4a08cb35551e")
+	)
+	(global_label "RED"
+		(shape input)
+		(at 102.87 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cd7a5ac-be36-432b-b6e2-726a0e40168c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.1958 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "H.SYNC{slash}C.SYNC"
+		(shape input)
+		(at 102.87 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f17234f-4e1f-489e-b716-d429e31b75fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.947 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BLUE"
+		(shape input)
+		(at 49.53 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e544342-847d-404b-8975-11813cddbca8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7672 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 38.1 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37f8f343-9062-4e17-81ef-a51c2615731c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.2443 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GREEN"
+		(shape input)
+		(at 102.87 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c3edb1d-2b50-47c6-950c-f2d00f07620d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.7163 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GREEN"
+		(shape input)
+		(at 49.53 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ee3fdef-9374-4547-b901-90f9cc17775e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.3763 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RED"
+		(shape input)
+		(at 49.53 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "533a14bd-70dc-4790-9498-9093714ea5ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.8558 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BLUE"
+		(shape input)
+		(at 102.87 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1c5a2f6-a154-48ed-a61f-3f6eb24d334e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.1072 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 102.87 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b850abfc-776d-42bd-b40a-d65036a27000")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.0143 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 129.54 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1499e03-1afb-4166-865c-9b427ae6bda9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.3957 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "H.SYNC{slash}C.SYNC"
+		(shape input)
+		(at 64.77 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5c0eab1-38c5-4f59-a5e7-aa950be61003")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.693 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Clueless_Engineer:671-0801")
+		(at 102.87 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e9b1c5f-b6d4-4e41-b076-dabb8bdfdd0c")
+		(property "Reference" "J2"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Байт DIN"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Clueless_Engineer:6710801"
+			(at 121.92 148.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/458/deltron-671-0401-4-way-din-socket-data-1859903.pdf"
+			(at 121.92 248.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Deltron 8 Pole Right Angle Din Socket Socket, 2A, 100 V ac, Lockable"
+			(at 102.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.5"
+			(at 121.92 448.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 121.92 548.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 121.92 648.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DELTRON COMPONENTS"
+			(at 121.92 748.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "671-0801"
+			(at 121.92 848.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6c3f6849-b9c2-4e19-bbec-cd91eb054936")
+		)
+		(pin "2"
+			(uuid "6d311350-ba11-4a43-8649-308403a70aaa")
+		)
+		(pin "4"
+			(uuid "ecea7b0c-e95c-4100-ac20-1c7c8a18a67c")
+		)
+		(pin "5"
+			(uuid "15668f60-8ffc-42e5-9906-f8067b3d67f8")
+		)
+		(pin "8"
+			(uuid "7e6afc23-5ae7-4609-8599-6772e2885820")
+		)
+		(pin "6"
+			(uuid "01f7b3e8-609c-491a-854d-0a504904d581")
+		)
+		(pin "7"
+			(uuid "b6d4bb95-8e2b-42bf-86ef-69bcf7811a4e")
+		)
+		(pin "MH2"
+			(uuid "5fad213b-360a-4b57-9a33-ec9818073fdf")
+		)
+		(pin "MH1"
+			(uuid "855dc822-7808-4d99-a275-a44fd8257399")
+		)
+		(pin "1"
+			(uuid "e207edd8-a086-4fad-a65d-96e3614e605d")
+		)
+		(instances
+			(project ""
+				(path "/9456dabe-44f0-4df6-9d67-e0e5c3b9f6e6"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE15_Socket_HighDensity")
+		(at 57.15 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eab4e28e-9308-4ec2-ae43-49eaca4691f5")
+		(property "Reference" "J1"
+			(at 57.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VGA Out"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 33.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector"
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "8e6c095d-4f90-4c68-bdd5-ee5f94cb654a")
+		)
+		(pin "14"
+			(uuid "372a71bb-f9f5-4c97-81a0-8ea14a3ec22e")
+		)
+		(pin "15"
+			(uuid "34521a86-7db5-45ff-9ba3-64bbb9b1b20b")
+		)
+		(pin "6"
+			(uuid "394a6445-bd0d-4135-b981-e709d952865d")
+		)
+		(pin "1"
+			(uuid "dc66888d-fc57-4cf3-862d-003d7453b05c")
+		)
+		(pin "7"
+			(uuid "1d710626-d890-42c3-a999-f163109df6a3")
+		)
+		(pin "2"
+			(uuid "b701da7f-8a38-49fc-bbc5-bbb9c6341690")
+		)
+		(pin "8"
+			(uuid "f07fe4b0-af45-4022-9fe5-e4158d9b936a")
+		)
+		(pin "3"
+			(uuid "139533e7-7dbd-4fcb-8c77-0d1f362eccd5")
+		)
+		(pin "9"
+			(uuid "86082a4e-7cde-4cdf-ace6-a73cf023c691")
+		)
+		(pin "4"
+			(uuid "15f72225-cb33-40d6-87c5-7dfb5d1979ff")
+		)
+		(pin "10"
+			(uuid "3d213113-e821-4011-8721-58b9d743cb0e")
+		)
+		(pin "5"
+			(uuid "a9fe3abe-6701-4a89-a086-61b4b029ad55")
+		)
+		(pin "11"
+			(uuid "88c1f6af-bb19-4377-bd61-fa71c5893c5e")
+		)
+		(pin "12"
+			(uuid "5c90c406-e1c6-4605-bbd5-50a76f4fb9f1")
+		)
+		(instances
+			(project ""
+				(path "/9456dabe-44f0-4df6-9d67-e0e5c3b9f6e6"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
