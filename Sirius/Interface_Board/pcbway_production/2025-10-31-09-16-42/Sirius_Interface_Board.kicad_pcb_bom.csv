@@ -1,0 +1,16 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+J1,1,KB1,PinHeader_1x05_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J10,1,TO_VIDEO,PinHeader_1x05_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J11,1,JOYSTICK,DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm,,,,tht,"9-pin D-SUB connector, pins (male), Mounting Hole"
+J12,1,TO_JOYSTICK,PinHeader_1x05_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J13,1,TO_RESET,PinHeader_1x02_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J15,1,DIN5,DIN5_MIDI,,,,tht,
+J2,1,TO_KB1,PinHeader_1x05_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J3,1,KB2,PinHeader_1x08_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J4,1,TO_KB2,PinHeader_1x08_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J5,1,POWER,USB_B_Lumberg_2411_02_Horizontal,,,,tht,USB Type B connector
+J6,1,TO_POWER,PinHeader_1x02_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J7,1,TAPE,35RAPC4BHN2_SWC,,,,tht,
+J8,1,TO_TAPE,PinHeader_1x03_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J9,1,AUDIO,35RAPC4BHN2_SWC,,,,tht,
+SW1,1,RESET,Switch_Tactile_6mm,,,,tht,"Push button switch, generic, two pins"

@@ -1,0 +1,16 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+165.7098,-128.6351,90.0,top,J1,,,PinHeader_1x05_P2.54mm_Vertical,KB1,tht
+107.8448,-86.4726,90.0,top,J10,,,PinHeader_1x05_P2.54mm_Vertical,TO_VIDEO,tht
+190.4898,-77.5951,180.0,top,J11,,,DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm,JOYSTICK,tht
+190.4898,-86.1573,-90.0,top,J12,,,PinHeader_1x05_P2.54mm_Vertical,TO_JOYSTICK,tht
+150.8154,-89.6422,90.0,top,J13,,,PinHeader_1x02_P2.54mm_Vertical,TO_RESET,tht
+112.9446,-78.6424,-90.0,top,J15,,,DIN5_MIDI,DIN5,tht
+163.4648,-110.8451,180.0,top,J2,,,PinHeader_1x05_P2.54mm_Vertical,TO_KB1,tht
+63.2348,-90.5951,90.0,top,J3,,,PinHeader_1x08_P2.54mm_Vertical,KB2,tht
+180.9498,-128.6351,90.0,top,J4,,,PinHeader_1x08_P2.54mm_Vertical,TO_KB2,tht
+70.0748,-81.9726,90.0,top,J5,,,USB_B_Lumberg_2411_02_Horizontal,POWER,tht
+58.5948,-82.7751,180.0,top,J6,,,PinHeader_1x02_P2.54mm_Vertical,TO_POWER,tht
+93.734755,-73.7351,0.0,top,J7,,,35RAPC4BHN2_SWC,TAPE,tht
+91.209202,-86.341909,90.0,top,J8,,,PinHeader_1x03_P2.54mm_Vertical,TO_TAPE,tht
+133.234755,-73.7351,0.0,top,J9,,,35RAPC4BHN2_SWC,AUDIO,tht
+151.8904,-76.7047,0.0,top,SW1,,,Switch_Tactile_6mm,RESET,tht
